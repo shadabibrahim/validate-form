@@ -1,0 +1,41 @@
+body{
+  background-color: black;
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.App h1{
+  font-weight: 400;
+}
+/* #input{
+  border-bottom: 1px solid white;
+}
+#name{
+  background: none;
+  border: none;
+  margin-left: 40px;
+  width: 80%;
+} */
+
+#input{
+  border-bottom: 1px solid gainsboro;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+input{
+  width: 75%;
+  border: none;
+  background: none;
+  color: gainsboro;
+  font-size: 20px;
+  /* padding-left: 10px; */
+  margin-left: 5px;
+}
+input:focus{
+  outline: none;
+}
+button{
+  width: 100px;
+  padding: 5px;
+  border: none;
+}
